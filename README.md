@@ -15,6 +15,12 @@ Archivos Empleado:
 - Solicitud.jsx (panel para mandar solicitudes a los administradores)
 - VerTurno.jsx (panel donde se ven los turnos que los administradores asignaron al empleado)
 
+
+
+# Explicacion: 
+
+
+
   
 
 

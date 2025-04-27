@@ -38,7 +38,7 @@ const VerTurnos = () => {
                         Departamento: {turno.departamento} <br />
                         Estado: {turno.estado}
                         </p>
-                    <a href="#" class="btn btn-primary">Editar Turno</a>
+                    <a href="#" class="btn btn-primary" onClick={navigate('/editar')}>Editar Turno</a>
                 </div>
             </div>
         ))}

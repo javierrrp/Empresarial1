@@ -10,7 +10,7 @@ import VerTurnos from './Administrador/VerTurnos';
 import VerTurnosEmpleados from './Empleado/VerTurnos';
 import Empleados from './Administrador/VerEmpleados'
 import AsignarTurno from './Administrador/AsignarTurno';
-
+import EditarTurno from './Administrador/EditarTurno';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -28,7 +28,8 @@ function App() {
         <Route path='/turnos' element={<VerTurnos />} />
         <Route path='/verturnos' element={<VerTurnosEmpleados />} />
         <Route path='/asignar' element= {<AsignarTurno />} />
-
+        <Route path='/editar' element= {<EditarTurno />} />
+        
       </Routes>
     </Router>
     
